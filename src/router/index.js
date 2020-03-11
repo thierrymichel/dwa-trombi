@@ -48,6 +48,11 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "directive" */ '../views/Directive.vue'),
   },
+  {
+    path: '/list',
+    name: 'List',
+    component: () => import(/* webpackChunkName: "list" */ '../views/List.vue'),
+  },
 ]
 
 const router = new VueRouter({
