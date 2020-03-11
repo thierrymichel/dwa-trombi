@@ -3,9 +3,11 @@
     <div class="nav">
       <ol>
         <li><router-link to="/">Data</router-link></li>
+        <li><router-link to="/ref">Ref</router-link></li>
       </ol>
     </div>
     <router-view class="main" />
+    <p>- - -</p>
   </div>
 </template>
 
