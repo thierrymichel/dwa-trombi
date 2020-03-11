@@ -1,5 +1,5 @@
 <template>
-  <div class="data">
+  <div class="ref">
     <h1>I am the "ref" page</h1>
     <p>and I am a paragraph</p>
     <hr />
@@ -9,7 +9,7 @@
 </template>
 
 <style lang="scss" scoped>
-.data > pre {
+.ref > pre {
   padding: 1rem;
   border: 1px dotted rebeccapurple;
 }
