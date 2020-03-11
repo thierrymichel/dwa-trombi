@@ -53,6 +53,12 @@ const routes = [
     name: 'List',
     component: () => import(/* webpackChunkName: "list" */ '../views/List.vue'),
   },
+  {
+    path: '/trombi',
+    name: 'Trombi',
+    component: () =>
+      import(/* webpackChunkName: "trombi" */ '../views/Trombi.vue'),
+  },
 ]
 
 const router = new VueRouter({
