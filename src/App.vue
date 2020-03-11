@@ -6,6 +6,7 @@
         <li><router-link to="/ref">Ref</router-link></li>
         <li><router-link to="/reactive">Reactive</router-link></li>
         <li><router-link to="/computed">Computed</router-link></li>
+        <li><router-link to="/event">Event</router-link></li>
       </ol>
     </div>
     <router-view class="main" />

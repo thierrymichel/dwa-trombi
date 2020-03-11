@@ -30,6 +30,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "computed" */ '../views/Computed.vue'),
   },
+  {
+    path: '/event',
+    name: 'Event',
+    component: () =>
+      import(/* webpackChunkName: "event" */ '../views/Event.vue'),
+  },
 ]
 
 const router = new VueRouter({

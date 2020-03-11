@@ -1,7 +1,6 @@
 <template>
   <div class="data">
     <h1>I am the "data" page</h1>
-    <p>and I am a paragraph</p>
     <hr />
     <h2>Counter</h2>
     <pre>Value: {{ count }}</pre>
