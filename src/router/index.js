@@ -42,6 +42,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "binding" */ '../views/Binding.vue'),
   },
+  {
+    path: '/directive',
+    name: 'Directive',
+    component: () =>
+      import(/* webpackChunkName: "directive" */ '../views/Directive.vue'),
+  },
 ]
 
 const router = new VueRouter({
