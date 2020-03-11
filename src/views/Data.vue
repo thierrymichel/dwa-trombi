@@ -13,12 +13,6 @@
   padding: 1rem;
   border: 1px dotted rebeccapurple;
 }
-p {
-  &::after {
-    content: ' … pas scoped';
-    font-weight: 700;
-  }
-}
 </style>
 
 <script>
@@ -27,12 +21,7 @@ import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   name: 'Data',
   setup() {
-    let count = 0
-
-    setInterval(() => {
-      console.info('inc')
-      count += 1
-    }, 500)
+    const count = 0
 
     // Tout ce qui est retourné ici peut être utilisé dans le <template>
     return {

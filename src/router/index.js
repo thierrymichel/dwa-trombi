@@ -18,6 +18,15 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "ref" */ '../views/Ref.vue'),
   },
+  {
+    path: '/reactive',
+    name: 'Reactive',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "reactive" */ '../views/Reactive.vue'),
+  },
 ]
 
 const router = new VueRouter({

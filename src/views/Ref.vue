@@ -29,10 +29,14 @@ export default defineComponent({
   setup() {
     const count = ref(0)
 
-    setInterval(() => {
+    const i = setInterval(() => {
       console.info('inc')
       // !!! ref.value
       count.value += 1
+
+      if (count.value >= 10) {
+        clearInterval(i)
+      }
     }, 500)
 
     // Tout ce qui est retourné ici peut être utilisé dans le <template>
