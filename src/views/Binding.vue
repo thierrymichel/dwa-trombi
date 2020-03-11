@@ -1,18 +1,24 @@
 <template>
-  <div class="event">
-    <h1>I am the "event" page</h1>
+  <div class="binding">
+    <h1>I am the "binding" page</h1>
     <hr />
     <h2>Counter</h2>
-    <pre>Value: {{ count }}</pre>
-    <button class="btn" @click="decrease">-</button>
-    <button class="btn" @click="increase">+</button>
+    <pre v-bind:class="{ 'is-invalid': isInvalid }">Value: {{ count }}</pre>
+    <button class="btn" v-on:click="decrease">
+      -
+    </button>
+    <button class="btn" @click="increase" :disabled="isDisabled">+</button>
   </div>
 </template>
 
 <style lang="scss" scoped>
-.event > pre {
+.binding > pre {
   padding: 1rem;
-  border: 1px dotted rebeccapurple;
+  border: 1px dotted lime;
+
+  &.is-invalid {
+    border-color: red;
+  }
 }
 .btn {
   width: 2rem;
@@ -22,12 +28,14 @@
 </style>
 
 <script>
-import { defineComponent, ref } from '@vue/composition-api'
+import { defineComponent, computed, ref } from '@vue/composition-api'
 
 export default defineComponent({
   name: 'Ref',
   setup() {
     const count = ref(0)
+    const isInvalid = computed(() => count.value < 0)
+    const isDisabled = computed(() => count.value >= 5)
 
     // Anciennes méthodes === fonctions qui manipulent mes variables
     const increase = () => (count.value += 1)
@@ -39,6 +47,8 @@ export default defineComponent({
       count,
       decrease,
       increase,
+      isInvalid,
+      isDisabled,
     }
   },
 })

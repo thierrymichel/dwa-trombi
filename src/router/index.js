@@ -36,6 +36,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "event" */ '../views/Event.vue'),
   },
+  {
+    path: '/binding',
+    name: 'Binding',
+    component: () =>
+      import(/* webpackChunkName: "binding" */ '../views/Binding.vue'),
+  },
 ]
 
 const router = new VueRouter({
