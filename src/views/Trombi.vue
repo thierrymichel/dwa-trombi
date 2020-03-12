@@ -9,6 +9,7 @@
       id="search"
       class="search"
       placeholder="Prénom"
+      v-model="search"
     />
     <hr />
     <ul class="grid">
@@ -63,14 +64,23 @@
 </style>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
+import { defineComponent, ref, computed } from '@vue/composition-api'
 import data from '@/inc/data'
 
 export default defineComponent({
   name: 'Trombi',
   setup() {
+    const search = ref('')
+    const filtered = computed(() =>
+      data.b3g1.filter(person =>
+        // person.firstname.toLowerCase().stratsWith(search.value.toLowerCase())
+        person.firstname.toLowerCase().includes(search.value.toLowerCase())
+      )
+    )
+
     return {
-      people: data.b3g1,
+      people: filtered,
+      search,
     }
   },
 })
