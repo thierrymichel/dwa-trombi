@@ -1,4 +1,4 @@
-# dwa-trombi-v3
+# dwa-trombi
 
 ## Project setup
 ```
