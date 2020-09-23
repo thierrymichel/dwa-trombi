@@ -1,264 +1,252 @@
 {
   "b3g1": [
     {
-      "lastname": "HERCOT",
-      "firstname": "Adeline",
-      "email": "adeline.hercot@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1C2/HERCOT-Adeline-B1C2.jpg"
-    },
-    {
-      "lastname": "RUWET",
-      "firstname": "Emily",
-      "email": "emily.ruwet@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/20695706102361.jpg"
-    },
-    {
-      "lastname": "MARTIN-COCHER",
-      "firstname": "Juliette",
-      "email": "juliette.martin-cocher@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/71061206102552.jpg"
-    },
-    {
-      "lastname": "LIEGEOIS",
-      "firstname": "Vincent",
-      "email": "vincent.liegeois@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1D1/LIEGEOIS-Vincent-B1D1.jpg"
-    },
-    {
-      "lastname": "CORNET",
-      "firstname": "Maxence",
-      "email": "maxence.cornet@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B2D11/CORNET-Maxence-B2D11.jpg"
-    },
-    {
-      "lastname": "GILLARD",
-      "firstname": "Aline",
-      "email": "aline.gillard@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/37504606102703.jpg"
-    },
-    {
-      "lastname": "WIEME",
-      "firstname": "Jean-christophe",
-      "email": "jcwieme@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/09633506102938.jpg"
-    },
-    {
-      "lastname": "DEDOBBELEER",
-      "firstname": "Logan",
-      "email": "logan.dedobbeleer@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/79654506102210.jpg"
-    },
-    {
-      "lastname": "ASSIFOUA",
-      "firstname": "Stéphanie",
-      "email": "stephanie.assifoua@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1F2/ASSIFOUA-Stephanie-B1F2.jpg"
-    },
-    {
-      "lastname": "GOFFINET",
-      "firstname": "Hélène",
-      "email": "helene.goffinet@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/04095306102155.jpg"
-    },
-    {
-      "lastname": "MARY",
-      "firstname": "Lucien",
-      "email": "lucien.mary@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/42244406102331.jpg"
-    },
-    {
-      "lastname": "MALSAGOVA",
-      "firstname": "Sélima",
-      "email": "selima.malsagova@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/99605506102800.jpg"
-    },
-    {
-      "lastname": "GESHEF",
-      "firstname": "Lucas",
-      "email": "lucas.geshef@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/39355116102759.jpg"
-    },
-    {
-      "lastname": "N'BOUHAMMOU",
-      "firstname": "Hamza",
-      "email": "h.bouhammou@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20161300.jpg"
-    },
-    {
-      "lastname": "DOS SANTOS",
-      "firstname": "Benjamin",
-      "email": "benjamin.dossantos@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170267.jpg"
-    },
-    {
-      "lastname": "FONDU",
-      "firstname": "Maxime",
-      "email": "m.fondu@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170025.jpg"
-    },
-    {
-      "lastname": "EXPOSITO LOPEZ",
-      "firstname": "Pablo",
-      "email": "pablo.expositolopez@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170642.jpg"
-    },
-    {
-      "lastname": "JACQMIN",
-      "firstname": "Lua",
-      "email": "lua.jacqmin@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170714.jpg"
-    },
-    {
-      "lastname": "CHALON",
-      "firstname": "Arnaud",
-      "email": "arnaud.chalon@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170178.jpg"
-    },
-    {
-      "lastname": "DAPSENS d'YVOIR",
-      "firstname": "Alexiane",
-      "email": "alexiane.dapsensdyvoir@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170618.jpg"
-    },
-    {
-      "lastname": "MIELE",
-      "firstname": "Fiona",
-      "email": "f.miele@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170777.jpg"
-    },
-    {
-      "lastname": "NYSSENS",
-      "firstname": "Elisabeth",
-      "email": "enyssens@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/anonyme.png"
-    }
-  ],
-  "b3g2": [
-    {
-      "lastname": "VU",
-      "firstname": "Ian",
-      "email": "ian.vu@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1C2/VU-Ian-B1C2.jpg"
-    },
-    {
-      "lastname": "VERMEULEN",
-      "firstname": "Thibaut",
-      "email": "thibaut.vermeulen@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/57882206102773.jpg"
-    },
-    {
-      "lastname": "BAILLY",
-      "firstname": "Marie",
-      "email": "marie.bailly@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1A2/BAILLY-Marie-B1A2.jpg"
-    },
-    {
-      "lastname": "JENNEQUIN",
-      "firstname": "Bryan",
-      "email": "bryan.jennequin@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/05897615102557.jpg"
-    },
-    {
-      "lastname": "FERNANDES",
-      "firstname": "Mailys",
-      "email": "mailys.fernandes@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1C1/FERNANDES-Mailys-B1C1.jpg"
-    },
-    {
-      "lastname": "BARTUMVILLE",
-      "firstname": "Laurie",
-      "email": "laurie.bartumville@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1C2/BARTUMVILLE-Laurie-B1C2.jpg"
-    },
-    {
-      "lastname": "ROMANZIN",
-      "firstname": "Tom",
-      "email": "tom.romanzin@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2015/B1C2/ROMANZIN-Tom-B1C2.jpg"
-    },
-    {
-      "lastname": "DUCHÊNE",
-      "firstname": "Ryan",
-      "email": "ryan.duchene@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/40120906102369.jpg"
+      "lastname": "CUOZZO",
+      "firstname": "Vincenzo",
+      "email": "vincenzo.cuozzo@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2015/B2A11/CUOZZO-Vincenzo-B2A11.jpg"
     },
     {
       "lastname": "WEVERBERGH",
       "firstname": "Antoine",
       "email": "a.weverbergh@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/35825306102731.jpg"
+      "picture": "https://extranet-tech.heaj.be/photos/2016/35825306102731.jpg"
+    },
+    {
+      "lastname": "MINNELLA",
+      "firstname": "Joachim",
+      "email": "joachim.minnella@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2016/78104706102751.jpg"
+    },
+    {
+      "lastname": "DI MARCO",
+      "firstname": "Lorenzo",
+      "email": "lorenzo.dimarco@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20160826.jpg"
     },
     {
       "lastname": "LASSENCE",
       "firstname": "Estelle",
       "email": "estelle.lassence@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20160218.jpg"
-    },
-    {
-      "lastname": "GENCO",
-      "firstname": "C�line",
-      "email": "celine.genco@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2016/48892206102204.jpg"
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20160218.jpg"
     },
     {
       "lastname": "DECLAIRFAYT",
       "firstname": "Simon",
       "email": "simon.declairfayt@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170251.jpg"
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170251.jpg"
     },
     {
-      "lastname": "GUISSARD",
-      "firstname": "Aurore",
-      "email": "aurore.guissard@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170117.jpg"
+      "lastname": "GRAUWEN",
+      "firstname": "Christopher",
+      "email": "christopher.grauwen@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170635.jpg"
     },
     {
-      "lastname": "BUSTO",
-      "firstname": "Timothé",
-      "email": "timothe.busto@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170549.jpg"
+      "lastname": "MOREAU",
+      "firstname": "Emilie",
+      "email": "emilie.moreau@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170438.jpg"
+    },
+    {
+      "lastname": "NOËL",
+      "firstname": "Nathan",
+      "email": "nathan.noel@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170266.jpg"
+    },
+    {
+      "lastname": "SELAMET",
+      "firstname": "Melih-can",
+      "email": "melih-can.selamet@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170940.jpg"
+    },
+    {
+      "lastname": "HANAFI",
+      "firstname": "Younes",
+      "email": "younes.hanafi@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170963.jpg"
+    },
+    {
+      "lastname": "MASSIN",
+      "firstname": "William",
+      "email": "william.massin@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170687.jpg"
+    },
+    {
+      "lastname": "MOUSSAOUI",
+      "firstname": "Mohamed",
+      "email": "m.moussaoui@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170733.jpg"
+    },
+    {
+      "lastname": "HAUFROID",
+      "firstname": "Arthur",
+      "email": "arthur.haufroid@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180290.jpg"
+    },
+    {
+      "lastname": "DELFOSSE",
+      "firstname": "Tom",
+      "email": "tom.delfosse@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180071.jpg"
+    },
+    {
+      "lastname": "BROUWER",
+      "firstname": "Maryline",
+      "email": "maryline.brouwer@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180077.jpg"
+    },
+    {
+      "lastname": "BLANCHY",
+      "firstname": "William",
+      "email": "william.blanchy@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180514.jpg"
+    },
+    {
+      "lastname": "CUVELIER",
+      "firstname": "Marie-joséphine",
+      "email": "mjcuvelier@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180187.jpg"
+    },
+    {
+      "lastname": "PIHARD",
+      "firstname": "Guillaume",
+      "email": "guillaume.pihard@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180030.jpg"
+    },
+    {
+      "lastname": "DECUYPER",
+      "firstname": "Ludovic",
+      "email": "ludovic.decuyper@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180095.jpg"
+    },
+    {
+      "lastname": "DURIEUX ",
+      "firstname": "Elie",
+      "email": "elie.durieux@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180064.jpg"
+    },
+    {
+      "lastname": "MOUVET",
+      "firstname": "Camille",
+      "email": "camille.mouvet@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20180245.jpg"
+    },
+    {
+      "lastname": "PUGLIESE",
+      "firstname": "Cynthia",
+      "email": "cynthia.pugliese@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/anonyme.png"
+    }
+  ],
+  "b3g2": [
+    {
+      "lastname": "WILLEMS",
+      "firstname": "Jérome",
+      "email": "jerome.willems@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2016/83790406102177.jpg"
+    },
+    {
+      "lastname": "ASSIFOUA",
+      "firstname": "Stéphanie",
+      "email": "stephanie.assifoua@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2015/B1F2/,ASSIFOUA-Stephanie-B1F2.jpg"
+    },
+    {
+      "lastname": "ARVANITIS",
+      "firstname": "Gabriella",
+      "email": "g.arvanitis@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20160978.jpg"
+    },
+    {
+      "lastname": "GOFFINET",
+      "firstname": "Hélène",
+      "email": "helene.goffinet@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2016/04095306102155.jpg"
+    },
+    {
+      "lastname": "DE PINHO LUCAS",
+      "firstname": "Daniel",
+      "email": "daniel.depinholucas@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2016/92944216102782.jpg"
+    },
+    {
+      "lastname": "MEUNIER",
+      "firstname": "Aline",
+      "email": "aline.meunier@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170846.jpg"
+    },
+    {
+      "lastname": "DE LORENZI",
+      "firstname": "Matteo",
+      "email": "matteo.delorenzi@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170159.jpg"
+    },
+    {
+      "lastname": "PALMIGIANO",
+      "firstname": "Lisa",
+      "email": "lisa.palmigiano@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170033.jpg"
+    },
+    {
+      "lastname": "LAURENT",
+      "firstname": "Morgane",
+      "email": "morgane.laurent@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170470.jpg"
+    },
+    {
+      "lastname": "LOTHAIRE",
+      "firstname": "Trystan",
+      "email": "t.lothaire@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170153.jpg"
+    },
+    {
+      "lastname": "PREYSE",
+      "firstname": "Dorian",
+      "email": "dorian.preyse@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170038.jpg"
+    },
+    {
+      "lastname": "CLESSE",
+      "firstname": "Arthur",
+      "email": "arthur.clesse@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170061.jpg"
+    },
+    {
+      "lastname": "GILSON",
+      "firstname": "Antoine",
+      "email": "antoine.gilson@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170024.jpg"
+    },
+    {
+      "lastname": "JANSEN",
+      "firstname": "Dimitri",
+      "email": "dimitri.jansen@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170201.jpg"
+    },
+    {
+      "lastname": "DENIS",
+      "firstname": "Olivier",
+      "email": "olivier.denis@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170894.jpg"
+    },
+    {
+      "lastname": "DELTOUR",
+      "firstname": "Tristan",
+      "email": "tristan.deltour@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170542.jpg"
     },
     {
       "lastname": "SCHEEN",
-      "firstname": "Camille",
-      "email": "camille.scheen@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170312.jpg"
+      "firstname": "Julien",
+      "email": "julien.scheen@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170953.jpg"
     },
     {
-      "lastname": "DURIEUX",
-      "firstname": "Laura",
-      "email": "laura.durieux@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170175.jpg"
-    },
-    {
-      "lastname": "DUTKIEWICZ",
-      "firstname": "Juwan",
-      "email": "j.dutkiewicz@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2019/20170591.jpg"
-    },
-    {
-      "lastname": "LALLEMAND",
-      "firstname": "Eva",
-      "email": "eva.lallemand@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/2018/20170008.jpg"
-    },
-    {
-      "lastname": "WALRANT",
-      "firstname": "Maxime",
-      "email": "maxime.walrant@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/anonyme.png"
-    },
-    {
-      "lastname": "ANSOTTE",
-      "firstname": "Arthur",
-      "email": "arthur.ansotte@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/anonyme.png"
-    },
-    {
-      "lastname": "NONNON",
-      "firstname": "Hélène",
-      "email": "helene.nonnon@student.heaj.be",
-      "picture": "http://extranet.infographie-sup.be/photos/anonyme.png"
+      "lastname": "GENON",
+      "firstname": "Antoine",
+      "email": "antoine.genon@student.heaj.be",
+      "picture": "https://extranet-tech.heaj.be/photos/2018/20170562.jpg"
     }
   ]
 }
