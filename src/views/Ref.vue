@@ -1,6 +1,6 @@
 <template>
   <div class="data">
-    <h1>I am the "data" view</h1>
+    <h1>I am the "ref" view</h1>
     <hr />
     <h2>Counter</h2>
     <pre>Value: {{ count }}</pre>
@@ -15,24 +15,24 @@
 </style>
 
 <script>
-import { defineComponent } from 'vue'
+// Import `ref` function
+import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
-  name: 'Data',
+  name: 'Ref',
   setup() {
-    let count = 0
+    // Create a `ref` = reactive variable
+    // ref() returns an object with a `value` property
+    // Intented use: string, number, boolean, array, …
+    const count = ref(0)
 
-    // Do not update UI because there is no reactivity
-    // but logs into the console…
     setInterval(() => {
-      count += 1
-      console.log(count)
+      // Increment ref through `.value`
+      count.value += 1
     }, 500)
 
     // Everything returned here can be used inside <template>
     return {
-      // Same as :
-      // count: count,
       count,
     }
   },

@@ -7,6 +7,29 @@ const routes = [
     name: 'Data',
     component: Data,
   },
+  {
+    path: '/ref',
+    name: 'Ref',
+    component: () => import(/* webpackChunkName: 'ref' */ '../views/Ref.vue'),
+  },
+  {
+    path: '/reactive',
+    name: 'Reactive',
+    component: () =>
+      import(/* webpackChunkName: 'reactive' */ '../views/Reactive.vue'),
+  },
+  {
+    path: '/computed',
+    name: 'Computed',
+    component: () =>
+      import(/* webpackChunkName: 'Computed' */ '../views/Computed.vue'),
+  },
+  {
+    path: '/Event',
+    name: 'Event',
+    component: () =>
+      import(/* webpackChunkName: 'Event' */ '../views/Event.vue'),
+  },
 ]
 
 const router = createRouter({

@@ -3,6 +3,10 @@
     <div class="nav">
       <ol>
         <li><router-link to="/">Data</router-link></li>
+        <li><router-link to="/ref">Ref</router-link></li>
+        <li><router-link to="/reactive">Reactive</router-link></li>
+        <li><router-link to="/computed">Computed</router-link></li>
+        <li><router-link to="/event">Event</router-link></li>
       </ol>
     </div>
     <router-view class="main" />
@@ -25,7 +29,7 @@ body {
 }
 
 .nav {
-  padding: 3rem 5rem;
+  padding: 1rem 2rem;
   border-right: 1px solid gray;
 
   ol {
