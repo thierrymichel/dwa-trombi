@@ -2,7 +2,6 @@
   <div class="app">
     <transition name="fade">
       <div class='nav' v-if="fading">
-        <nav>
           <ol>
             <li><router-link to="/">Data</router-link></li>
             <li><router-link to="/ref">Ref</router-link></li>
@@ -10,7 +9,6 @@
             <li><router-link to="/computed">Computed</router-link></li>
             <li><router-link to="/event">Event</router-link></li>
           </ol>
-        </nav>
         
       </div>
     </transition>
@@ -56,6 +54,9 @@ body {
 .nav {
     position:absolute;
     left:0;
+    background-color:whitesmoke;
+    padding:1em;
+    height: 100vh;
 }
 nav {
 
