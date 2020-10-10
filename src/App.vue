@@ -1,27 +1,50 @@
 <template>
   <div class="app">
-    <div class="burger-icon">
-      <p>Menu</p>
-    </div>
-    <div v-bind:class="{ 'nav-hidden': nav-hidden , 'nav-show': nav-show }" class="nav">
-      <ol>
-        <li><router-link to="/">Data</router-link></li>
-        <li><router-link to="/ref">Ref</router-link></li>
-        <li><router-link to="/reactive">Reactive</router-link></li>
-        <li><router-link to="/computed">Computed</router-link></li>
-        <li><router-link to="/event">Event</router-link></li>
-      </ol>
-    </div>
+    <transition name="fade">
+      <div class='nav' v-if="fading">
+        <nav>
+          <ol>
+            <li><router-link to="/">Data</router-link></li>
+            <li><router-link to="/ref">Ref</router-link></li>
+            <li><router-link to="/reactive">Reactive</router-link></li>
+            <li><router-link to="/computed">Computed</router-link></li>
+            <li><router-link to="/event">Event</router-link></li>
+          </ol>
+        </nav>
+        
+      </div>
+    </transition>
     <router-view class="main" />
-    <p>- - -</p>
-  </div>
+    <div @click="fading = !fading" class="burger-icon">
+          <p>Menu</p>
+    </div>
+</div>
 </template>
+
+
+<script>
+
+    export default {
+        data: () => ({
+          fading : true,
+        })
+    }
+
+</script>
+
 
 <style lang="scss">
 body {
   margin: 0;
 }
+.burger-icon {
+  & p {
+    margin-block-start: 0px;
+    margin:10px;
+    cursor:pointer;
+  }
 
+}
 .app {
   display: flex;
   min-height: 100vh;
@@ -30,10 +53,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+.nav {
+    position:absolute;
+    left:0;
+}
+nav {
+
 ol {
     margin: 0;
     padding: 0;
-  }
+
+}
 
   a {
     font-weight: bold;
@@ -47,5 +77,25 @@ ol {
 
 .main {
   padding: 5rem;
+}
+.fade-enter-active,
+.fade-leave-active {
+  animation: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation-delay: 0.3;
+}
+.fade-enter-from,
+.fade-leave-to {
+  animation: reverse transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  animation-delay: 0.3;
+}
+
+@keyframes transform {
+  from {
+    margin-left: -100px;
+  }
+
+  to {
+    margin-left: 0px;
+  }
 }
 </style>
