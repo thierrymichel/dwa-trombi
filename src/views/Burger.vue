@@ -1,9 +1,8 @@
 <template>
-  <div class="app">
     <div class="burger-icon">
       <p>Menu</p>
     </div>
-    <div v-bind:class="{ 'nav-hidden': nav-hidden , 'nav-show': nav-show }" class="nav">
+    <div class="nav">
       <ol>
         <li><router-link to="/">Data</router-link></li>
         <li><router-link to="/ref">Ref</router-link></li>
@@ -18,34 +17,25 @@
 </template>
 
 <style lang="scss">
-body {
-  margin: 0;
-}
-
-.app {
-  display: flex;
-  min-height: 100vh;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-ol {
-    margin: 0;
-    padding: 0;
+.nav {
+  padding: 1rem 2rem;
+  border-right: 1px solid gray;
+  &-hidden {
+    display: none;
   }
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+  &-show {
+    display: block;
   }
 }
-
-.main {
-  padding: 5rem;
+.burger-icon p {
+  margin-block-start: 0px;
+  margin:10px;
+  cursor:pointer;
 }
 </style>
+
+<script>
+import { defineComponent, ref, computed } from 'vue'
+
+
+</script>
