@@ -30,6 +30,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: 'Event' */ '../views/Event.vue'),
   },
+  {
+    path: '/Burger',
+    name: 'Burger',
+    component: () =>
+      import(/* webpackChunkName: 'Event' */ '../views/Burger.vue'),
+  },
 ]
 
 const router = createRouter({
