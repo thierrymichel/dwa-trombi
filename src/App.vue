@@ -77,7 +77,7 @@ body {
 <script>
 export default {
   data: () => ({
-    isActive: false,
+    isActive: true,
   }),
   methods: {
     toggle() {
