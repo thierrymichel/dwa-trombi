@@ -16,6 +16,9 @@
 </template>
 
 <style lang="scss">
+body {
+  margin: 0;
+}
 .btn {
   background-color: #42b983;
   position: fixed;
@@ -32,9 +35,7 @@
   cursor: pointer;
   padding: 5px 10px 5px 10px;
 }
-body {
-  margin: 0;
-}
+
 
 .app {
   display: flex;
