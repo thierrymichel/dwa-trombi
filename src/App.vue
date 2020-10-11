@@ -1,6 +1,7 @@
 <template>
   <div class="app">
     <div class="nav">
+      <button class="nav__btn">Menu</button>
       <ol>
         <li><router-link to="/">Data</router-link></li>
         <li><router-link to="/ref">Ref</router-link></li>
@@ -28,13 +29,54 @@ body {
   color: #2c3e50;
 }
 
+
+.open{
+  .nav{
+    ol{
+      transform: translateX(0%);
+    }
+    &__btn{
+      &::before{
+        transform: rotate(45deg) translateY(9px);
+      }
+      &::after{
+        transform: rotate(-45deg) translateY(-11px) translateX(3px);;
+      }
+    }
+  }
+}
+
+
 .nav {
   padding: 1rem 2rem;
   border-right: 1px solid gray;
 
+  &__btn{
+    background-color: transparent;
+    color : white;
+    border: none;
+    position: fixed;
+    &::before,
+    &::after{
+      background-color : red;
+      width : 60%;
+      height: 2px;
+      content: '';
+      position : absolute;
+      top : 0;
+      left : 0;
+    }
+    &::after{
+      top : 100%;
+    }
+  }
+
+
+
   ol {
-    margin: 0;
+    margin: 60px 0 0 0;
     padding: 0;
+    transform: translateX(-200%);
   }
 
   a {
