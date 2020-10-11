@@ -11,7 +11,7 @@
       </ol>
     </div>
     <router-view class="main" />
-    <p>Melih Selamet B2G1</p>
+    <p>Melih Selamet B3G1</p>
   </div>
 </template>
 
@@ -51,17 +51,14 @@ body {
   transform: translateX(0%);
   transition: 0.3s;
    background-color: #2c3e50;
-
   ol {
     margin-top: 50px;
     padding: 0;
-   
   }
 
   a {
     font-weight: bold;
     color: #fff;
-
     &.router-link-exact-active {
       color: #42b983;
     }
@@ -84,7 +81,7 @@ export default {
   }),
   methods: {
     toggle() {
-      this.isActive = !this.isActive
+      this.isActive = !this.isActive;
     },
   },
 }
