@@ -1,6 +1,7 @@
 <template>
   <div class="app">
     <div class="nav">
+      <button class="burger">Bonjour je suis un petit bouton</button>
       <ol>
         <li><router-link to="/">Data</router-link></li>
         <li><router-link to="/ref">Ref</router-link></li>
@@ -45,6 +46,10 @@ body {
       color: #42b983;
     }
   }
+}
+
+.nav--hide ol{
+  opacity: 0;
 }
 
 .main {
