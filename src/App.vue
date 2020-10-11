@@ -1,7 +1,7 @@
 <template>
-  <div class="app">
+  <div class="app" :class="{ 'open' : isBurgerActive }">
     <div class="nav">
-      <button class="nav__btn">Menu</button>
+      <button class="nav__btn" @click.prevent="toggle">Menu</button>
       <ol>
         <li><router-link to="/">Data</router-link></li>
         <li><router-link to="/ref">Ref</router-link></li>
@@ -93,3 +93,17 @@ body {
   padding: 5rem;
 }
 </style>
+
+<script>
+    export default {
+        data: () => ({
+            isBurgerActive: false
+        }),
+        methods: {
+            toggle() {
+                this.isBurgerActive = !this.isBurgerActive
+            }
+        }
+    }
+</script>
+
