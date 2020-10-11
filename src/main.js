@@ -11,5 +11,6 @@ let btn = document.querySelector(".burger");
 let nav = document.querySelector(".nav");
 
 btn.addEventListener("click", () =>{
-nav.classList.toggle("nav--hide");
+  nav.classList.toggle("nav--hide");
+  btn.classList.toggle("burger--open");
 })

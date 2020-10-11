@@ -1,7 +1,7 @@
 <template>
   <div class="app">
-    <div class="nav">
-      <button class="burger">Bonjour je suis un petit bouton</button>
+    <div class="burger"><span>Menu</span></div>
+    <div class="nav nav--hide">
       <ol>
         <li><router-link to="/">Data</router-link></li>
         <li><router-link to="/ref">Ref</router-link></li>
@@ -32,9 +32,11 @@ body {
 .nav {
   padding: 1rem 2rem;
   border-right: 1px solid gray;
+  transition: 300ms;
+  animation-timing-function: ease-in-out;
 
   ol {
-    margin: 0;
+    margin: 5rem 0 0;
     padding: 0;
   }
 
@@ -48,11 +50,76 @@ body {
   }
 }
 
-.nav--hide ol{
-  opacity: 0;
+.nav--hide {
+  transform: translateX(-100%);
 }
 
 .main {
   padding: 5rem;
+}
+
+.burger{
+  cursor: pointer;
+  padding: 10px 0;
+  box-sizing: content-box;
+  position: absolute;
+  width: 30px;
+  padding: 2rem;
+
+  &:hover span{
+    background-color: #42b983;
+
+    &::after, &::before{
+      background-color: #42b983;
+    }
+  }
+
+  span {
+    font-size: 0;
+    width: 35px;
+    height: 5px;
+    background-color: #2c3e50;
+    display: inline-block;
+    transition: 300ms;
+    animation-timing-function: ease-in-out;
+
+    &::after, &::before{
+      content: ' ';
+      display: block;
+      width: 35px;
+      transform-origin: left;
+      transition: 300ms;
+      height: 5px;
+      background-color: #2c3e50;
+      position: relative;
+      top: 10px;
+    }
+
+    &::before{
+      top: -15px;
+    }
+  }
+
+  &--open{
+    span{
+      background-color: inherit;
+      &::after{
+        transform: rotate(-45deg);
+        width: 43px;
+      }
+
+      &::before{
+        transform:  rotate(45deg);
+        width: 43px;
+
+      }
+    }
+
+    &:hover{
+      span{
+        background-color: inherit;
+      }
+    }
+  }
 }
 </style>
