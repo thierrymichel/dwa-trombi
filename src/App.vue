@@ -63,8 +63,9 @@ body {
   padding: 10px 0;
   box-sizing: content-box;
   position: absolute;
-  width: 30px;
-  padding: 2rem;
+
+  padding: 0.5rem;
+  margin: 1.5rem;
 
   &:hover span{
     background-color: #42b983;
@@ -92,11 +93,11 @@ body {
       height: 5px;
       background-color: #2c3e50;
       position: relative;
-      top: 10px;
+      top: 8px;
     }
 
     &::before{
-      top: -15px;
+      top: -13px;
     }
   }
 
@@ -105,13 +106,12 @@ body {
       background-color: inherit;
       &::after{
         transform: rotate(-45deg);
-        width: 43px;
+        width: 38px;
       }
 
       &::before{
         transform:  rotate(45deg);
-        width: 43px;
-
+        width: 38px;
       }
     }
 
