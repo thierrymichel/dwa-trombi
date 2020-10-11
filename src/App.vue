@@ -35,7 +35,7 @@ body {
   transform: translateX(0%);
   transition-duration: 1s;
 
-  &-close{
+  &-close {
     transform: translateX(-100%);
   }
 
@@ -77,17 +77,18 @@ body {
 </style>
 
 <script>
-export default ({
+export default {
   name: 'nav',
   setup() {
-    var burger=false;
+    var burger = false
     var blabla = () => {
-      var nav=document.querySelector('.nav')
+      var nav = document.querySelector('.nav')
       nav.classList.toggle('nav-close')
     }
     return {
       blabla,
       burger,
     }
-}})
+  },
+}
 </script>
