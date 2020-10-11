@@ -26,7 +26,6 @@ export default defineComponent({
     // but logs into the console…
     setInterval(() => {
       count += 1
-      console.log(count)
     }, 500)
 
     // Everything returned here can be used inside <template>
