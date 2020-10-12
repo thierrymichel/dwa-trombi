@@ -1,7 +1,8 @@
 <template>
-  <div class="app">
+  <div class="app" :class="{ 'open' : isBurgerActive }">
     <div class="nav">
-      <ol>
+      <button class="btn" @click.prevent="toggle">menu</button>
+      <ol class="menu">
         <li><router-link to="/">Data</router-link></li>
         <li><router-link to="/ref">Ref</router-link></li>
         <li><router-link to="/reactive">Reactive</router-link></li>
@@ -32,8 +33,37 @@ body {
   padding: 1rem 2rem;
   border-right: 1px solid gray;
 
+  .btn{
+  background-color:transparent;
+  border:#131316 solid 2px;
+  border-radius: 5px;
+  position: relative;
+  width: 50px;
+  height:50px;
+  white-space: nowrap;
+  text-indent: 150%;
+  overflow: hidden;
+  outline:0;
+  &::before,
+  &::after{
+    content:'';
+    width:70%;
+    height:2px;
+    background-color:#131316;
+    z-index:10;
+    position: absolute;
+    left:15%;
+    }
+    &::before{
+      top:35%;
+    }
+    &::after{
+      bottom:35%;
+    }
+}
+
   ol {
-    margin: 0;
+    margin:50px 0;
     padding: 0;
   }
 
@@ -47,7 +77,45 @@ body {
   }
 }
 
+.menu{
+  transform:translate(-200%);
+  margin-top:20px;
+  transition: cubic-bezier(0.165, 0.84, 0.44,1);
+}
+
 .main {
   padding: 5rem;
 }
+
+.open{
+  .nav{
+    .btn{
+      &:before, &:after{
+        top: 50%;
+      }
+      &:before{
+        transform: rotate(45deg);
+      }
+      &:after{
+        transform: rotate(-45deg);
+      }
+    }
+    .menu{
+      display: block;
+      transform:translate(0%);
+    }
+  }
+}
 </style>
+<script>
+    export default {
+        data: () => ({
+            isBurgerActive: false
+        }),
+        methods: {
+            toggle() {
+                this.isBurgerActive = !this.isBurgerActive
+            }
+        }
+    }
+</script>
