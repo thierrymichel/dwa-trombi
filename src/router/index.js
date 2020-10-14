@@ -30,6 +30,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: 'Event' */ '../views/Event.vue'),
   },
+  {
+    path: '/list',
+    name: 'List',
+    component: () =>
+      import(/* webpackChunkName: 'Event' */ '../views/List.vue'),
+  },
 ]
 
 const router = createRouter({

@@ -8,6 +8,8 @@
             <li><router-link to="/reactive">Reactive</router-link></li>
             <li><router-link to="/computed">Computed</router-link></li>
             <li><router-link to="/event">Event</router-link></li>
+            <li><router-link to="/list">Trombi</router-link></li>
+
           </ol>
         
       </div>
