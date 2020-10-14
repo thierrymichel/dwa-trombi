@@ -1,0 +1,42 @@
+//Avoid typekit FOUT
+html {
+  &.js {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+
+    &.wf-active,
+    &.wf-inactive,
+    &.ready {
+      opacity: 1;
+    }
+  }
+}
+
+// SVG sprite
+body > svg {
+  display: none;
+}
+
+// RWD
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// NO SCROLL
+.no-scroll {
+  overflow-y: hidden;
+  height: 100vh;
+  padding-right: 15px;
+}
+
+// VARIOUS
+hr {
+  height: 1px;
+  background-color: $c-gray-darker;
+  border: 0;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
