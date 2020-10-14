@@ -1,18 +1,21 @@
 <template>
   <div class="app">
-    <div class="nav">
-      <ol>
-        <li><router-link to="/">Data</router-link></li>
-        <li><router-link to="/ref">Ref</router-link></li>
-        <li><router-link to="/reactive">Reactive</router-link></li>
-        <li><router-link to="/computed">Computed</router-link></li>
-        <li><router-link to="/event">Event</router-link></li>
-      </ol>
-    </div>
-    <router-view class="main" />
+    <ChromeNav />
+    <router-view class="app__main" />
     <p>- - -</p>
   </div>
 </template>
+
+<script>
+import { defineComponent } from 'vue'
+import ChromeNav from '@/components/chrome/Nav.vue'
+
+export default defineComponent({
+  components: {
+    ChromeNav,
+  },
+})
+</script>
 
 <style lang="scss">
 body {
@@ -28,26 +31,7 @@ body {
   color: #2c3e50;
 }
 
-.nav {
-  padding: 1rem 2rem;
-  border-right: 1px solid gray;
-
-  ol {
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-
-.main {
+.app__main {
   padding: 5rem;
 }
 </style>

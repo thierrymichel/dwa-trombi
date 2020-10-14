@@ -1,6 +1,6 @@
 <template>
-  <div class="reactive">
-    <h1>I am the "reactive" view</h1>
+  <div class="computed">
+    <h1>I am the "computed" view</h1>
     <hr />
     <h2>Total</h2>
     <pre>{{ total }}</pre>
@@ -19,7 +19,7 @@
 import { defineComponent, ref, computed } from 'vue'
 
 export default defineComponent({
-  name: 'Reactive',
+  name: 'Computed',
   setup() {
     const items = ref(0)
 
