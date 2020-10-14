@@ -13,7 +13,7 @@
     <hr />
     <ul class="grid">
       <li v-for="person in people" :key="person.email">
-        <img :src="person.picture" />
+        <img :src="person.picture" :alt="person.picture" />
         <strong>{{ person.firstname }}</strong>
       </li>
     </ul>
