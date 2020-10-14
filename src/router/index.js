@@ -31,10 +31,27 @@ const routes = [
       import(/* webpackChunkName: 'Event' */ '../views/Event.vue'),
   },
   {
-    path: '/Burger',
-    name: 'Burger',
+    path: '/Binding',
+    name: 'Binding',
     component: () =>
-      import(/* webpackChunkName: 'Event' */ '../views/Burger.vue'),
+      import(/* webpackChunkName: 'Binding' */ '../views/Binding.vue'),
+  },
+  {
+    path: '/Directive',
+    name: 'Directive',
+    component: () =>
+      import(/* webpackChunkName: 'Directive' */ '../views/Directive.vue'),
+  },
+  {
+    path: '/List',
+    name: 'List',
+    component: () => import(/* webpackChunkName: 'List' */ '../views/List.vue'),
+  },
+  {
+    path: '/Trombi',
+    name: 'Trombi',
+    component: () =>
+      import(/* webpackChunkName: 'Trombi' */ '../views/Trombi.vue'),
   },
 ]
 
