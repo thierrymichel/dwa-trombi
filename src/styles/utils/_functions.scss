@@ -1,0 +1,36 @@
+// Remove the unit of a length
+// @param {Number} $number - Number to remove unit from
+// @return {Number} - Unitless number
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+// Convert the unit of a length
+// @param {Number} $number - Number to convert the unit
+// @param {String} $unit - Unit to append to number
+/// @return {Number} - Number with unit
+@function convert-unit($number, $unit) {
+  @return unquote(strip-unit($number) + $unit);
+}
+
+// Calculate a ratio
+// @param {Number} $target - Target size
+// @param {Number} $context - Context size
+@function calc-ratio($target, $context) {
+  @return strip-unit($target / $context);
+}
+
+// Calculate a ratio into percentage
+// @param {Number} $target - Target size
+// @param {Number} $context - Context size
+@function calc-percent($target, $context) {
+  @return percentage(calc-ratio($target, $context));
+}
+
+@function col($number, $total: 20) {
+  @return (100% / $total) * $number;
+}
