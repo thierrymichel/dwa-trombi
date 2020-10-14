@@ -1,0 +1,26 @@
+// Import Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+
+// @font-face {
+//   font-family: 'SpaceMono';
+//   src: url('/assets/fonts/SpaceMono-Regular.ttf') format('truetype');
+//   font-weight: 300;
+//   font-style: normal;
+// }
+
+html {
+  font-size: calc(1em * 0.625);
+}
+
+body {
+  /* sass-lint:disable-block no-vendor-prefixes */
+  color: $c-gray-darkest;
+  font-family: #{$ff-default};
+  font-size: $body-text;
+  font-weight: 300;
+  line-height: 1.65;
+
+  @include mq(m) {
+    font-size: $body-text-m;
+  }
+}
