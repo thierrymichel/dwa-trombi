@@ -17,6 +17,18 @@
       <li>
         <router-link to="/event">Event</router-link>
       </li>
+      <li>
+        <router-link to="/binding">Binding</router-link>
+      </li>
+      <li>
+        <router-link to="/directive">Directive</router-link>
+      </li>
+      <li>
+        <router-link to="/list">List</router-link>
+      </li>
+      <li>
+        <router-link to="/trombi">Trombi</router-link>
+      </li>
     </ol>
   </div>
 </template>
