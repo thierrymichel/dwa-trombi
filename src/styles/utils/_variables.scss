@@ -1,0 +1,73 @@
+/**
+* Dev, based on $env (from gulp)
+*/
+$env: 'development' !default;
+
+/**
+ * Colors
+ * for the naming use http://chir.ag/projects/name-that-color/
+ * from darker to lighter ?
+ */
+
+// Global colors
+$c-black: rgb(0, 0, 0);
+$c-gray-darkest: rgb(32, 32, 32);
+$c-gray-darker: #5e5e5e;
+$c-gray-dark: #858585;
+$c-gray-medium: rgb(111, 113, 117);
+$c-gray: #b2b2b2;
+$c-gray-light: #d8d8d8;
+$c-gray-lighter: #e6e6e6;
+$c-gray-lightest: rgb(239, 239, 239);
+$c-white: rgb(255, 255, 255);
+$c-transparent: transparent;
+$c-red: #f00;
+$c-green: #17b603;
+$c-lemon: #f8e71c;
+
+// Dev colors
+$c-dev-bg: #3e4b55;
+$c-dev-success: #090;
+$c-dev-error: #d90b0b;
+$c-dev-warning: #f50;
+$c-dev-info: #829deb;
+$c-dev-rebecca: rebeccapurple; /* stylelint-disable-line color-named */
+
+// Project colors
+$c-orange: #ff4b00;
+$c-orange-light: #ff6c00;
+$c-yellow: #fabb00;
+
+$c-default: $c-black;
+$c-primary: $c-orange;
+$c-secondary: $c-yellow;
+
+/*
+* Dimensions
+*/
+$nav-min-width: 30rem;
+$nav-trigger-width: 3.33rem;
+
+/*
+* Typography
+*/
+
+$base-font-size: 10px !default;
+
+$ff-default: 'Roboto', sans-serif;
+$ff-alt: 'Open Sans', sans-serif;
+$body-text: 1.5rem;
+$body-text-m: 1.8rem;
+
+$font-sizes: (
+  h1: 3.6rem,
+  h2: 2.8rem,
+  h3: 2.4rem,
+  h4: 1.4rem,
+);
+
+/**
+* RWD
+*/
+$mq-responsive: true;
+$mq-static-breakpoint: 'large';
