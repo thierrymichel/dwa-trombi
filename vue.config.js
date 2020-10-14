@@ -1,7 +1,6 @@
-const path = require('path')
 const { NODE_ENV } = process.env
 const isProd = NODE_ENV === 'production'
-const scssUtils = path.join(process.cwd(), 'src/styles/utils/index')
+const scssUtils = '~@/styles/utils/index'
 
 module.exports = {
   css: {
