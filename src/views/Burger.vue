@@ -96,6 +96,7 @@ h1{
 </style>
 
 <script>
+//ANCIENNE NOMENCLATURE/
     export default {
         data: () => ({
             isActive: false
@@ -106,5 +107,25 @@ h1{
             }
         }
     }
+
+
+
+/* NOUVELLE NOMENCLATURE PLUS RECENTE/ 
+import { defineComponent,  } from 'vue'
+
+export default defineComponent({
+  setup() {
+    const isActive = ref(false)
+    const toggle = () => {
+      isActive.value = !isActive.value
+    }
+    /// Everything returned here can be used inside <template>
+    return {
+      isActive,
+      toggle,
+    }
+  },
+})
+*/
 
 </script>
