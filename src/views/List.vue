@@ -1,5 +1,8 @@
 <template>
   <div class="reactive">
+    
+    <p>Trombiscope</p>
+    <input type="text">
     <ul id="trombi">
       <li v-for="student in data" :key="student.firstname">
         {{ student.picture }}
@@ -17,15 +20,14 @@
 
 <script>
 import { defineComponent } from 'vue'
-import data from '../inc/data.json'
+import data from '@/inc/data.json'
 export default defineComponent({
   name: 'List',
   setup() {
 
 
-      console.log(data);
     return {
-
+      return
     }
   },
 })
