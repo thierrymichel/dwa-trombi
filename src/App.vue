@@ -9,7 +9,6 @@
 <script>
 import { defineComponent } from 'vue'
 import ChromeNav from '@/components/chrome/Nav.vue'
-
 export default defineComponent({
   components: {
     ChromeNav,
@@ -21,7 +20,6 @@ export default defineComponent({
 body {
   margin: 0;
 }
-
 .app {
   display: flex;
   min-height: 100vh;
@@ -30,7 +28,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-
 .app__main {
   padding: 5rem;
 }
